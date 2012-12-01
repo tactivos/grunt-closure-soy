@@ -1,0 +1,29 @@
+{
+  "name": "grunt-closure-soy",
+  "description": "SOYs (Google Closure) template generator",
+  "version": "0.1.0",
+  "homepage": "https://github.com/tactivos/grunt-closure-soy",
+  "author": {
+    "name": "Johnny Halife",
+    "url": "http://github.com/johnnyhalife/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tactivos/grunt-closure-soy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tactivos/grunt-closure-soy/issues"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "grunt": "~0.3.17"
+  },
+  "keywords": [
+    "gruntplugin",
+    "google-closure",
+    "google-closure-soy",
+    "soy"
+  ]
+}
