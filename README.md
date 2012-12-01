@@ -36,4 +36,5 @@ Then specify what files to compress in your config:
 [closure-templates]: https://developers.google.com/closure/templates/docs/helloworld_js
 
 ## Release History
+* 0.1.1 Missing async callback
 * 0.1.0 Initial Release

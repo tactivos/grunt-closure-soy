@@ -48,6 +48,7 @@ module.exports = function (grunt) {
 			} else {
 				grunt.log.writeln('Successfully generated ' + files.length + ' templates.');
 			}
+			done();
 		});
 	});
 };
