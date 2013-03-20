@@ -11,10 +11,10 @@ module.exports = function (grunt) {
 	};
 
 	grunt.registerMultiTask('closureSoys', "SOYs (Google Closure) template generator", function () {
-		var _ = grunt.utils._;
+		var _ = grunt.util._;
 		var done = this.async();
-		var async = grunt.utils.async;
-		var files = grunt.file.expandFiles(this.file.src);
+		var async = grunt.util.async;
+		var files = this.filesSrc;
 
 		var config = _.extend({}, defaults, this.data);
 		var args = [];
@@ -37,7 +37,7 @@ module.exports = function (grunt) {
 		// all the files
 		args.push(files);
 
-		grunt.utils.spawn({
+		grunt.util.spawn({
 			cmd: 'java',
 			args: _.flatten(args)
 		}, function (err, output, code) {
