@@ -43,7 +43,7 @@ module.exports = function (grunt) {
 		}, function (err, output, code) {
 			if(err) {
 				grunt.log.error();
-				grunt.verbose.error(err);
+				grunt.log.error(err);
 				grunt.fail.warn('SoyToJsSrcCompiler failed to compress process templates.');
 			} else {
 				grunt.log.writeln('Successfully generated ' + files.length + ' templates.');
